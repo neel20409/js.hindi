@@ -23,3 +23,32 @@
     
 // }
 // console.log(myfunction);
+
+
+// ********************* memory************************
+
+
+//stack (Primitive), Heap(Non-primitive )
+
+// (stack) send copies of orignal value.
+let name1 = "Bhatt Neel ";
+let name2 = name1
+name2 = "MEet bhatt" ;
+
+// console.log(name1);
+// console.log(name2);
+
+// Heap(send reference of original value).
+
+let user1 = {
+    Name : "Bhatt Neel",
+    subject : "Maths"
+}
+
+
+
+let user2 = user1
+
+user2.Name = " Bhatt Niel"
+console.log(user2);
+console.log(user1);
