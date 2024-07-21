@@ -22,4 +22,4 @@ const orgarr = arr5.flat(Infinity)//smplify array depth for user help
 // console.log(Array.from("BhattNeel"));
 
 console.log(Array.from({name: "Neel"}));//provide empty array
-//can`t convert into array directly first need to specifice whether we need to convert key or pairs
+//can`t convert into array directly first need to specifice whether we need to convert key or pairs 
