@@ -8,7 +8,7 @@ console.log(mydate);
 // console.log(mydate.toLocaleDateString());
 // console.log(mydate.toLocaleTimeString());
 // console.log(typeof(mydate));
-let mynewdate = new Date(2023,09,25)
+let mynewdate = new Date(2023,9,25)
 // console.log(mynewdate.toDateString());
 
 let owdate = new Date ("08-03-2005")
