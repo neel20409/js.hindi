@@ -33,10 +33,33 @@ const obj4 = {...obj1,...obj2}// another method of spread same as array ..
 
 
 //to get data from data base 
-console.log(tiktok);
-console.log(Object.keys(tiktok));
-console.log(Object.values(tiktok));
-console.log(Object.entries(tiktok));
+// console.log(tiktok);
+// console.log(Object.keys(tiktok));
+// console.log(Object.values(tiktok));
+// console.log(Object.entries(tiktok));
+
+
+//destructure
+const course = {
+    name : "hindi",
+    price: "999",
+    insstructor:"Neel"
+
+}
+// course.insstructor
+
+const {price: $} = course//it is use to rename the key items to avoid lenghty calling again and agian
+
+// console.log($);
+
+
+// {
+//     "name":"neel",
+//     "cours":"js hindi",
+//     "price":"free"
+// }
+
+
 
 
  
