@@ -31,4 +31,4 @@ console.log(this);
 // // console.log(two(45,34));
 const two = (num1,num2) =>  (num1+num2)//implicite return,
 
-console.log(two(23,34));
+// console.log(two(23,34));
