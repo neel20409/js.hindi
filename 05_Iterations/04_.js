@@ -21,4 +21,3 @@ for (const key in pro) {
 for (const key in pro) {
     // console.log(pro[key]);
 }
-
