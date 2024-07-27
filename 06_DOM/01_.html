@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>DOM learning </title>
+</head>
+<body style="background-color: black; color: aliceblue;">
+    <div class="parent">
+        <div class="day">monday</div>
+        <div class="day">tuesday</div>
+        <div class="day">wednesday</div>
+        <div class="day">thrusday</div>
+    </div>
+</body>
+<script>
+    const parent = document.querySelectorAll('.parent')
+    console.log(parent);
+    console.log(parent.children);
+    console.log(parent.children[1].innerHTML);
+
+
+    const dayone = document.querySelector('.day')
+    console.log(dayone);
+    console.log(dayone.parentElement);
+    console.log(dayone.nextElementSibling);
+
+    console.log("NODES: ", parent.childNodes);
+</script>
+</html>
+
+//learn it on browser console
