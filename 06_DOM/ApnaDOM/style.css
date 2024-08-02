@@ -1,0 +1,16 @@
+.heading{
+    color:chocolate;
+    border: 2px black;
+    background-color: blue;
+    font-display:initial;
+    text-align: center;
+
+}
+body{
+    background-color: cadetblue;
+}
+button{
+    color: blueviolet;
+    background-color: brown;
+    border-radius: 50%;
+}

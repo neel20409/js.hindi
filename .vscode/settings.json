@@ -1,0 +1,11 @@
+{
+    "liveServer.settings.multiRootWorkspaceName": "js.hindi",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.fullReload": true,
+    "liveServer.settings.NoBrowser": false,
+    "liveServer.settings.port": 0,
+    "liveServer.settings.wait": 100,
+    "liveServer.settings.useLocalIp": true,
+    "debug.javascript.autoAttachFilter": "always",
+    "github.codespaces.usePortForwardingServiceForHTTPS": false
+}
